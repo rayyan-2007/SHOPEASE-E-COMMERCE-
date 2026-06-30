@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import ProductCard from "./Components/ProductCard";
  import Productdata from "./productdata";
 import { useState } from "react";
+import Banner from "./Components/banner";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <>
       <Navbar counter={counter} />
 
+      <Banner/>
       <div className="parent">
         <div className="products-container">
           {Productdata.map((product) => (
