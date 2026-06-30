@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import ProductCard from "./Components/ProductCard";
  import Productdata from "./productdata";
 import { useState } from "react";
-import Banner from "./Components/banner";
+import Banner from "./Components/Banner";
 
 
 const App = () => {
