@@ -1,7 +1,6 @@
 
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import Banner from "./Components/Banner";
 import ProductCard from "./Components/ProductCard";
  import Productdata from "./productdata";
 import { useState } from "react";
@@ -12,8 +11,6 @@ const App = () => {
   return (
     <>
       <Navbar counter={counter} />
-
-      <Banner />
 
       <div className="parent">
         <div className="products-container">
